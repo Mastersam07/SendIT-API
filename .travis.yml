@@ -4,7 +4,7 @@ env:
     - URL=http://localhost:3000
     - PORT=3000
     - NODE_ENV=development
-    - JWT_SECRET=abadasosp@secret
+    - JWT_SECRET=mastersam07@secret
     - MAILGUN_USER=
     - MAILGUN_PASSWORD=
 language: node_js
@@ -12,7 +12,6 @@ node_js:
   - "10.4.0"
 branches:
   only:
-    - master
     - develop
 install:
   - npm install
